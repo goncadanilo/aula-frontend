@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aula Frontend</title>
+
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="/">Aula Frontend</a>
+      <ul>
+        <li>
+          <a href="/">Usuários</a>
+        </li>
+        <li>
+          <a href="/cadastrar.html">Cadastrar</a>
+        </li>
+      </ul>
+    </header>
+
+    <main class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Idade</th>
+            <th>Gênero</th>
+          </tr>
+        </thead>
+        <tbody id="list"></tbody>
+      </table>
+    </main>
+
+    <script src="src/listar.js"></script>
+  </body>
+</html>

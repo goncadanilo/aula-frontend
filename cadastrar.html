@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aula Frontend</title>
+
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="/">Aula Frontend</a>
+      <ul>
+        <li>
+          <a href="/">Usuários</a>
+        </li>
+        <li>
+          <a href="/cadastrar.html">Cadastrar</a>
+        </li>
+      </ul>
+    </header>
+
+    <main class="container">
+      <div class="form">
+        <h1>Cadastro</h1>
+        <input
+          type="text"
+          class="form-input"
+          name="name"
+          id="name"
+          placeholder="Nome"
+        />
+        <input
+          type="email"
+          class="form-input"
+          name="email"
+          id="email"
+          placeholder="Email"
+        />
+        <input
+          type="number"
+          class="form-input"
+          name="age"
+          id="age"
+          placeholder="Idade"
+        />
+        <select class="form-input" name="gender" id="gender">
+          <option value="">Gênero</option>
+          <option value="M">Masculino</option>
+          <option value="F">Feminino</option>
+        </select>
+        <button type="button" onclick="submit()" class="btn">Cadastrar</button>
+      </div>
+    </main>
+
+    <!-- JS -->
+    <script src="src/cadastro.js"></script>
+  </body>
+</html>
