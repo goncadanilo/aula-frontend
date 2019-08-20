@@ -12,5 +12,5 @@ Instalação
 
 * **Clone o repositório:** Para clonar o repositório use o seguinte comando.
 ```
-git clone https://github.com/goncadanilo/omnistack-8-tindev-api.git
+git clone https://github.com/goncadanilo/aula-frontend.git
 ```
