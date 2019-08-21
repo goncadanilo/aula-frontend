@@ -7,14 +7,10 @@ function submit() {
   const id = localStorage.length + 1;
 
   const user =
-    id +
-    ";" +
-    name.value +
-    ";" +
-    email.value +
-    ";" +
-    age.value +
-    ";" +
+    id + ";" +
+    name.value + ";" +
+    email.value + ";" +
+    age.value + ";" +
     gender.value;
 
   localStorage.setItem(id, user);
